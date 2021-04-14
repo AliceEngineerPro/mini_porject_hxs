@@ -1,0 +1,45 @@
+<view clas ="box" hover-class="boxHover" >
+
+  <view class="item" hover-class="itemHover" hover-stop-propagation>1111</view>
+</view>
+
+<view class="out">
+  <text>好好学习</text> 
+  <text>微信<text decode> &nbsp;&lt; </text>小程序</text>
+</view>
+
+<scroll-view scroll-x>
+  <view class="srcOut">
+    <view class="srcbox">111</view>
+    <view class="srcbox">222</view>
+    <view class="srcbox">333</view>
+    <view class="srcbox">444</view>
+    <view class="srcbox">555</view>
+  </view>
+</scroll-view>
+
+<scroll-view class="srcout2" scroll-y>
+  <view class="srcbox2">
+    <view class="srcbox2">1111</view>
+    <view class="srcbox2">2222</view>
+    <view class="srcbox2">3333</view>
+    <view class="srcbox2">4444</view>
+    <view class="srcbox2">5555</view>
+  </view>
+</scroll-view>
+
+
+
+<view>
+  <navigator class="link" url="/pages/logs/logs" open-type="reLaunch">跳转到日志</navigator>
+  <navigator class="link">跳转到日志</navigator>
+</view>
+
+<image src="https://dss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=1094587501,1172034567&fm=26&gp=0.jpg" mode="widthFix"></image>>
+<image src="../../images/pic1.win4000.jpg" mode="widthFix"></image>
+<image src="/images/pic3.zhimg.jpg" show-menu-by-longpress="false"></image>
+<image src="/images/u=3903098809,771086010&fm=26&gp=0.jpg" mode="widthFix" ></image>
+
+<text user-select space="ensp">好好学习好好学习好         好学习好好学习好好学习好好学习好好学习好好学习好好学习好好学习好好学习好好学习好好学习好好学习好好学习好好学习好好学习好好学习好好学习好好学习</text>
+<view>好好学习好好学习好好学习好好学习好好学习好好学习好好学习好好学习好好学习好好学习好好学习好好学习好好学习好好学习好好学习好好学习好好学习好好学习好好学习好好学习</view>
+

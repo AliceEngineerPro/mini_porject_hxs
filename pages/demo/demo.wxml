@@ -1,0 +1,28 @@
+<swiper class="banner" indicator-dots indicator-color="rgba(255,255,255,0.5)" indicator-active-color="#FFFF" autoplay="True" interval="3000" circular>
+  <swiper-item>
+    <image src="/images/1.jpg" mode="widthFix"></image>
+  </swiper-item>
+  <swiper-item>
+    <image src="/images/2.jpg" mode="widthFix"></image>
+  </swiper-item>
+  <swiper-item>
+    <image src="/images/3.jpg" mode="widthFix"></image>
+  </swiper-item>
+</swiper>
+
+<view class="out">
+  <button class="btn1" type="primary" plain>登录</button>
+  <button class="btn1" type="warn">退出登录</button>
+  <button class="btn1" type="primary" size="mini">支付</button>
+  <button class="btn1"  loading>加载中...</button>
+  <button type="primary" open-type="contact">联系客服</button>
+
+  <form bindsubmit="onSubmit">
+    <input class="ipt" placeholder="请输入用户名"  auto-focus cursor-spacing="100rpx"></input>
+    <button form-type="submit">提交</button>
+    <switch checked></switch>
+  </form>
+  
+  <icon type="success" size="50"></icon>
+
+</view>

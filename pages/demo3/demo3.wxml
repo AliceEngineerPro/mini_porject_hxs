@@ -1,0 +1,19 @@
+<view wx:for="{{5}}" wx:key="*this">新视觉实训</view>
+
+<text decode>&nbsp;</text>  
+<view wx:for="{{[111,222,333,444]}}" wx:key="*this">{{index+1}}、{{item}}</view>
+
+<text decode>&nbsp;</text> 
+<view wx:for="{{listArr}}" wx:key="*this">{{index+1}}、{{item}}</view>
+
+<text decode>&nbsp;</text> 
+<!-- 使用 wx:for-item 可以指定数组当前元素的变量名，
+使用 wx:for-index 可以指定数组当前下标的变量名： -->
+<view wx:for="{{listArr}}" wx:for-index="i" wx:for-item="content" wx:key="*this">{{i}}.{{content}}</view>
+
+<text decode>&nbsp;</text> 
+<view wx:for="{{listObj}}" wx:key="index">
+  <title>{{item.title}}</title> - <title>{{item.time}}</title>
+</view>
+
+

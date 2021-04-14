@@ -1,0 +1,4 @@
+.banner{height: 300px; border: 1px solid red;}
+.banner image{width: 100%;}
+button{margin:10rpx 0}
+.ipt{border: 1px solid #dddddd; height: 70rpx; padding: 0 10rpx; box-sizing: border-box;}
